@@ -6,7 +6,7 @@
 /** 04.Plugin for Typed Text initialization **/
 $(function(){
 	$(".typed").typed({
-		strings: ["Web Developer.", "Designer.", "Photographer."],
+		strings: ["Web Developer.", "Designer.", "Shopify Developer."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
