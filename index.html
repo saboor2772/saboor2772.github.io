@@ -20,7 +20,7 @@
 <body class="solid-bg">
 	
   <div class="page-loader" id="page-loader">
-	 <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+	 <div class="lds-ellipsis"></div>
 	  <span>Loading...</span>
   </div><!-- page loader -->
 	
@@ -305,7 +305,7 @@
 					   <h4>Write A Message</h4>
 					   <div>
 						  <div id="message"></div>
-						  <form class="message" action="mail.php" method="POST" id="contactform">
+						  <form class="message" action="send" method="POST" id="contactform">
 							 <div class="fields">
 								<div class="input">
 								   <input name="name" type="text" placeholder="Your Name" required>
@@ -324,7 +324,6 @@
 								</div>
 
 							 </div>
-						  </action=>
 					   </div>
 					</div>
 				 </div>
@@ -334,39 +333,6 @@
 		</div>
 	 </div>
   </main><!-- main content area -->
-	
-  <div id="modal-container">
-	 <div class="modal-background">
-		<div class="modal">
-		   <div class="blog-detail">
-			  <figure><img src="img/blog-detail.jpg" alt=""><span>Feb 27, 2020</span></figure>
-			  <div class="detail-meta">
-				 <h2>Bootstrap is the Most Popular HTML, CSS, and JS Framework</h2>
-				 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a fringilla elit, eu mattis arcu. Curabitur augue augue, scelerisque sit amet varius eget, tristique at nisl. In euismod suscipit tristique. Nulla sollicitudin pretium massa sit amet tristique.</p>
-				 <blockquote>
-					<p>
-					   " Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking"
-					</p>
-				 </blockquote>
-				 <p>
-					Praesent ac quam sed magna gravida interdum. Vivamus sed nunc lobortis, tempor ante ut, gravida nibh. Praesent sed euismod odio. Maecenas dui dui, euismod quis lobortis quis, dignissim ut eros. Curabitur cursus lacinia sollicitudin. Aenean vitae erat imperdiet, egestas nisi non, placerat sapien. In nec commodo justo. Nunc posuere lacinia neque eu malesuada. Sed lacus lacus, tincidunt id faucibus eget, sagittis sed enim. Nunc nec dapibus odio.
-				 </p>
-				 <h4>Share</h4>
-				 <ul class="social-media">
-					<li><a href="#"><i class="icofont-facebook"></i></a></li>
-					<li><a href="#"><i class="icofont-instagram"></i></a></li>
-					<li><a href="#"><i class="icofont-twitter"></i></a></li>
-					<li><a href="#"><i class="icofont-pinterest"></i></a></li>
-					<li><a href="#"><i class="icofont-tumblr"></i></a></li>
-				 </ul>
-			  </div>
-		   </div>
-		   <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-			  <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
-		   </svg>
-		</div>
-	 </div>
-  </div><!-- modal popup blog detail -->
 	
   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
   <script src="js/fullpage.js"></script>
